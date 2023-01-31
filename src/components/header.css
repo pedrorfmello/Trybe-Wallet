@@ -1,0 +1,43 @@
+header {
+  align-items: center;
+  background-color: var(--dark-purple);
+  border-bottom: 1px solid #ccc;
+  color: var(--text-white);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.despesas {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.despesas p {
+  margin: 0;
+}
+
+.usuario {
+  align-items: flex-start;
+  border: 1px solid var(--text-white);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  line-height: 25px;
+  margin-right: 50px;
+  padding: 10px;
+}
+
+.usuario p {
+  margin: 0;
+}
+
+.container-direita {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}

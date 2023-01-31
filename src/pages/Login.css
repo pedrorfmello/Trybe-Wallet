@@ -1,0 +1,35 @@
+.form {
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--border-color);
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 50px auto;
+  padding: 1rem;
+  width: 500px;
+}
+
+.logo {
+  align-self: center;
+  margin-bottom: 1rem;
+  width: 70%;
+}
+
+h4 , h6 {
+  align-self: center;
+}
+
+.inputForm {
+  padding-bottom: 10px;
+}
+
+strong {
+  font-size: 1rem;
+}
+
+@media screen and ( max-width : 550px ) {
+
+  .form {
+    width: 90%;
+  }
+}

@@ -1,0 +1,11 @@
+.form-add {
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--border-color);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 10px auto;
+  padding: 1rem;
+  width: 98%;
+}
