@@ -95,7 +95,7 @@ class Login extends React.Component {
     return (
       <div className="form form-group">
         <img src={ Carteira } alt="trybewallet" className="logo" />
-        <h4>Bem vindo a TrybeWallet.</h4>
+        <h4>Bem-vindo a TrybeWallet.</h4>
         <h6>Faça o cadastro e entre</h6>
         <div className="form-group mb-3">
           <div className="inputForm">
